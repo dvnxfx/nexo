@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>NEXO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <h2>NEXO</h2>
+
+  <label for="nomeDisciplina">Nome da disciplina:</label>
+  <input type="text" id="nomeDisciplina" placeholder="Ex: Matemática" />
+  <label for="cargaHoraria">Carga horária da disciplina (horas):</label>
+  <input type="number" id="cargaHoraria" placeholder="Ex: 80" min="1" />
+
+  <label for="faltas">Quantidade de faltas (horas):</label>
+  <input type="number" id="faltas" placeholder="Ex: 20" min="0" />
+
+  <button id="btnCalcular">Calcular</button>
+
+  <div id="resultado"></div>
+ 
+  <script src="index.js"></script>
+
+</body>
+
+</html>
